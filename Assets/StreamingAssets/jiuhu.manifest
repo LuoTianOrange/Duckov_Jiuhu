@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2441140566
+CRC: 1757952679
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5f80a2d3c0e37a997dd9977afd1acef6
+    Hash: 4fba3c229fd86c4386dbcf7aa163e123
   TypeTreeHash:
     serializedVersion: 2
     Hash: 99093748ac4d438c437aedec131963ba
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 5f80a2d3c0e37a997dd9977afd1acef6
+    Hash: 4fba3c229fd86c4386dbcf7aa163e123
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -43,10 +43,6 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - "Assets/\u9152\u72D0\u72D0\u72F8.prefab"
-- "Assets/Model/\u9152\u72D0\u72D0\u72F8\u52A8\u753B.fbx"
 - "Assets/\u9152\u72D0\u6A21\u578B.prefab"
-- "Assets/Model/\u9152\u72D0\u72D0\u72F8\u4E0D\u5E26\u52A8\u753B.fbx"
-- "Assets/Model/\u9152\u72D0\u6A21\u578B.fbx"
-- "Assets/Model/\u9152\u72D0\u6A21\u578B.prefab"
-- "Assets/Model/\u9152\u72D0\u72D0\u72F8.fbx"
+- "Assets/Prefab/\u9152\u72D0\u6A21\u578B.prefab"
 Dependencies: []
