@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.ritsukage.duckov-custom-model-tools": {
+      "version": "file:com.ritsukage.duckov-custom-model-tools",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 1,
