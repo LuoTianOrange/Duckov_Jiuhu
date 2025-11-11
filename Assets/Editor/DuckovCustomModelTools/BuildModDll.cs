@@ -162,8 +162,9 @@ namespace {name}
 
         private static string EscapeIniValue(string value)
         {
-            if (string.IsNullOrEmpty(value)) return value;
-            return value.Replace("\\", "\\\\").Replace(" ", "\\ ").Replace("\n", "\\n").Replace("\r", "\\r");
+            return string.IsNullOrEmpty(value)
+                ? value
+                : value.Replace("\\", @"\\").Replace(" ", "\\ ").Replace("\n", "\\n").Replace("\r", "\\r");
         }
 
         private static void GenerateInfoIni(string name, string displayName, string description, string projectPath)
@@ -201,7 +202,7 @@ namespace {name}
             var compilerInfo = GetUnityCompilerPath();
             if (compilerInfo == null)
             {
-                var errorMsg = "无法找到 Unity 编译器。";
+                const string errorMsg = "无法找到 Unity 编译器。";
                 File.WriteAllText(logPath, errorMsg, Encoding.UTF8);
                 Debug.LogError(errorMsg);
                 return logPath;
@@ -234,7 +235,7 @@ namespace {name}
             using var process = Process.Start(processStartInfo);
             if (process == null)
             {
-                var errorMsg = "无法启动 Unity 编译器进程。";
+                const string errorMsg = "无法启动 Unity 编译器进程。";
                 logContent.AppendLine(errorMsg);
                 File.WriteAllText(logPath, logContent.ToString(), Encoding.UTF8);
                 Debug.LogError(errorMsg);
