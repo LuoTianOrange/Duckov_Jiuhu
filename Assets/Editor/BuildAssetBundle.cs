@@ -93,6 +93,13 @@ public class BuildAssetBundle : EditorWindow
             string.IsNullOrEmpty(_bundleName) ? "duckov_model_bundle" : _bundleName, "unity3d");
         if (string.IsNullOrEmpty(path)) return;
 
+        var bundleFileName = Path.GetFileName(path);
+        var outputDir = Path.Combine(Application.temporaryCachePath, "AssetBundleBuild");
+        if (!Directory.Exists(outputDir))
+        {
+            Directory.CreateDirectory(outputDir);
+        }
+
         var assetNames = validPrefabs.Select(AssetDatabase.GetAssetPath).ToArray();
         const BuildAssetBundleOptions buildOptions = BuildAssetBundleOptions.ForceRebuildAssetBundle
                                                      | BuildAssetBundleOptions.RecurseDependencies
@@ -100,17 +107,23 @@ public class BuildAssetBundle : EditorWindow
 
         var build = new AssetBundleBuild
         {
-            assetBundleName = Path.GetFileName(path),
+            assetBundleName = bundleFileName,
             assetNames = assetNames,
         };
 
-        var bundles = BuildPipeline.BuildAssetBundles(Path.GetDirectoryName(path), new[] { build },
+        var bundles = BuildPipeline.BuildAssetBundles(outputDir, new[] { build },
             buildOptions, buildTarget);
 
         if (bundles == null || bundles.GetAllAssetBundles().Length == 0)
         {
             EditorUtility.DisplayDialog("错误", "模型 Bundle 导出失败。", "确定");
             return;
+        }
+
+        var builtBundlePath = Path.Combine(outputDir, bundleFileName);
+        if (File.Exists(builtBundlePath))
+        {
+            File.Copy(builtBundlePath, path, true);
         }
 
         EditorUtility.DisplayDialog("成功", "模型 Bundle 导出成功！", "确定");
