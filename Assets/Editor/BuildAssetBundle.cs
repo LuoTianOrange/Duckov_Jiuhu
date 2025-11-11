@@ -126,6 +126,8 @@ public class BuildAssetBundle : EditorWindow
             File.Copy(builtBundlePath, path, true);
         }
 
+        AssetDatabase.Refresh();
+
         EditorUtility.DisplayDialog("成功", "模型 Bundle 导出成功！", "确定");
     }
 
