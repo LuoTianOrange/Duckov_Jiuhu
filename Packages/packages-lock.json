@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "com.ritsukage.duckov-custom-model-tools": {
-      "version": "https://github.com/BAKAOLC/duckov-custom-model-tools.git",
+    "com.ritsukage.duckov-custom-model-sdk": {
+      "version": "https://github.com/Duckov-Custom-Model/DuckovCustomModel-SDK.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "cfcc18924b1e308827f1f2422ecbe6bf566f9041"
+      "hash": "08ec5705783c268a65fe3a522f0c836428e85b31"
     },
     "com.unity.burst": {
       "version": "1.8.12",
