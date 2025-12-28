@@ -2,6 +2,8 @@
   "dependencies": {
     "com.ritsukage.duckov-custom-model-sdk": {
       "version": "https://github.com/Duckov-Custom-Model/DuckovCustomModel-SDK.git",
+    "com.ritsukage.duckov-custom-model-sdk": {
+      "version": "https://github.com/Duckov-Custom-Model/DuckovCustomModel-SDK.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
