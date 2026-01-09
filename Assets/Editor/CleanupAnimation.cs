@@ -1,24 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor;
 using System.IO;
+using UnityEditor;
+using UnityEngine;
 
 public class CleanupAnimation : EditorWindow
 {
-    private AnimationClip targetClip;
     private Vector2 scrollPosition;
-
-    [MenuItem("Tools/Cleanup Animation")]
-    public static void ShowWindow()
-    {
-        GetWindow<CleanupAnimation>("Cleanup Animation");
-    }
+    private AnimationClip targetClip;
 
     private void OnGUI()
     {
         scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
-        
+
         EditorGUILayout.LabelField("动画清理工具", EditorStyles.boldLabel);
         EditorGUILayout.Space();
 
@@ -27,14 +19,16 @@ public class CleanupAnimation : EditorWindow
         EditorGUILayout.Space();
 
         if (targetClip != null)
-        {
             if (GUILayout.Button("处理动画", GUILayout.Height(30)))
-            {
                 ProcessAnimation();
-            }
-        }
 
         EditorGUILayout.EndScrollView();
+    }
+
+    [MenuItem("Tools/Cleanup Animation")]
+    public static void ShowWindow()
+    {
+        GetWindow<CleanupAnimation>("Cleanup Animation");
     }
 
     private void ProcessAnimation()
@@ -45,19 +39,19 @@ public class CleanupAnimation : EditorWindow
             return;
         }
 
-        AnimationClip newClip = Object.Instantiate(targetClip);
-        string originalPath = AssetDatabase.GetAssetPath(targetClip);
-        string directory = Path.GetDirectoryName(originalPath);
-        string fileName = Path.GetFileNameWithoutExtension(originalPath);
-        string extension = Path.GetExtension(originalPath);
-        string newPath = Path.Combine(directory, fileName + "_Cleaned" + extension).Replace('\\', '/');
+        var newClip = Instantiate(targetClip);
+        var originalPath = AssetDatabase.GetAssetPath(targetClip);
+        var directory = Path.GetDirectoryName(originalPath);
+        var fileName = Path.GetFileNameWithoutExtension(originalPath);
+        var extension = Path.GetExtension(originalPath);
+        var newPath = Path.Combine(directory, fileName + "_Cleaned" + extension).Replace('\\', '/');
 
-        EditorCurveBinding[] bindings = AnimationUtility.GetCurveBindings(newClip);
-        int removedCount = 0;
+        var bindings = AnimationUtility.GetCurveBindings(newClip);
+        var removedCount = 0;
 
         foreach (var binding in bindings)
         {
-            AnimationCurve curve = AnimationUtility.GetEditorCurve(newClip, binding);
+            var curve = AnimationUtility.GetEditorCurve(newClip, binding);
             if (curve == null || curve.length == 0)
                 continue;
 
@@ -68,17 +62,15 @@ public class CleanupAnimation : EditorWindow
                 continue;
             }
 
-            float firstValue = curve.keys[0].value;
-            bool hasChange = false;
+            var firstValue = curve.keys[0].value;
+            var hasChange = false;
 
-            for (int i = 1; i < curve.length; i++)
-            {
+            for (var i = 1; i < curve.length; i++)
                 if (!Mathf.Approximately(curve.keys[i].value, firstValue))
                 {
                     hasChange = true;
                     break;
                 }
-            }
 
             if (!hasChange)
             {
@@ -91,10 +83,10 @@ public class CleanupAnimation : EditorWindow
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
 
-        EditorUtility.DisplayDialog("处理完成", 
+        EditorUtility.DisplayDialog("处理完成",
             $"已处理动画：{targetClip.name}\n" +
             $"删除了 {removedCount} 个无变化的曲线\n" +
-            $"保存为：{newPath}", 
+            $"保存为：{newPath}",
             "确定");
 
         targetClip = null;
