@@ -31,7 +31,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans
 
 MIT License
 
-Copyright (c) 2025 Duckov Custom Model
+Copyright (c) 2025 LuoTianOrange
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
