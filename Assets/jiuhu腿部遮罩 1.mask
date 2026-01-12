@@ -1,0 +1,381 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "jiuhu\u817F\u90E8\u906E\u7F69 1"
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Mesh_0
+    m_Weight: 1
+  - m_Path: Root
+    m_Weight: 1
+  - m_Path: Root/Root
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/DownBody
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/DownBody/LeftLeg
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/DownBody/LeftLeg/LeftLowerLeg
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/DownBody/LeftLeg/LeftLowerLeg/LeftFoot
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/DownBody/LeftLeg/LeftLowerLeg/LeftFoot/LeftFoot_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/DownBody/RightLeg
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/DownBody/RightLeg/RightLowerLeg
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/DownBody/RightLeg/RightLowerLeg/RightFoot
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/DownBody/RightLeg/RightLowerLeg/RightFoot/RightFoot_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BL
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BL/BL2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BL/BL2/BL3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BL/BL2/BL3/BL3_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BM
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BM/BM2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BM/BM2/BM3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BM/BM2/BM3/BM3_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BR
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BR/BR2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BR/BR2/BR3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/BackClothe/BR/BR2/BR3/BR3_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM/FFM1
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM/FFM1/FFM1_1
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM/FFM1/FFM1_1/FFM1_1_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM/FFM2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM/FFM2/FFM2_1
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM/FFM2/FFM2_1/FFM2_1_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM/FFM3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM/FFM3/FFM3_1
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FFM/FFM3/FFM3_1/FFM3_1_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FL
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FL/FL1
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FL/FL1/FL2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FL/FL1/FL2/FL2_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FM
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FM/FM1
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FM/FM1/FM2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FM/FM1/FM2/FM2_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FR
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FR/FR1
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FR/FR1/FR2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/FrontClothe/FR/FR1/FR2/FR2_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LB
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LB/LB2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LB/LB2/LB3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LB/LB2/LB3/LB3_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LF
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LF/LF2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LF/LF2/LF3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LF/LF2/LF3/LF3_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LM
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LM/LM2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LM/LM2/LM3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/LeftClothe/LM/LM2/LM3/LM3_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RB
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RB/RB2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RB/RB2/RB3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RB/RB2/RB3/RB3_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RF
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RF/RF2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RF/RF2/RF3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RF/RF2/RF3/RF3_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RM
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RM/RM2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RM/RM2/RM3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/clothe/RightClothe/RM/RM2/RM3/RM3_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/Tail
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/Tail/Tail2
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/Tail/Tail2/Tail3
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/Tail/Tail2/Tail3/Tail4
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/Tail/Tail2/Tail3/Tail4/Tail5
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/Tail/Tail2/Tail3/Tail4/Tail5/Tail6
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/Tail/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/Tail/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail7_end
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head
+    m_Weight: 0
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Ear
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Ear/Left_ear
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Ear/Left_ear/Left_ear_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Ear/Right_ear
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Ear/Right_ear/Right_ear_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Elytra
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Elytra/Elytra_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_1
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_1/Expression_1_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_2
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_2/Expression_2_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_3
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_3/Expression_3_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_4
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_4/Expression_4_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_5
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_5/Expression_5_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_6
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_6/Expression_6_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_7
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_7/Head_E_T_1_1
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_7/Head_E_T_1_1/Head_E_T_1_1_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_7/Head_E_T_1_2
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Expression/Expression_7/Head_E_T_1_2/Head_E_T_1_2_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/EyeBrow
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/EyeBrow/LeftEyebrow
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/EyeBrow/LeftEyebrow/LeftEyebrow_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/EyeBrow/RightEyebrow
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/EyeBrow/RightEyebrow/RightEyebrow_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/LeftEyelid
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/LeftEyelid/LeftEyelidBase
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/LeftEyelid/LeftEyelidBase/LeftEyeDot
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/LeftEyelid/LeftEyelidBase/LeftEyeDot/LeftEyeDot_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/LeftEyelid/LeftEyelidBase/LeftEyePublic
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/LeftEyelid/LeftEyelidBase/LeftEyePublic/LeftEyePublic_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/RightEyelid
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/RightEyelid/RightEyelidBase
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/RightEyelid/RightEyelidBase/RightEyeDot
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/RightEyelid/RightEyelidBase/RightEyeDot/RightEyeDot_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/RightEyelid/RightEyelidBase/RightEyePublic
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Eyes/Eyelid/RightEyelid/RightEyelidBase/RightEyePublic/RightEyePublic_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/BaseHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/BaseHair/bone5
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/BaseHair/bone5/bone5_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongHair/MLongHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongHair/MLongHair/LongHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongHair/MLongHair/LongHair/LongHair2
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongHair/MLongHair/LongHair/LongHair2/LongHair2_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongLeftHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongLeftHair/MLongLeftHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongLeftHair/MLongLeftHair/LongLeftHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongLeftHair/MLongLeftHair/LongLeftHair/LongLeftHair2
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongLeftHair/MLongLeftHair/LongLeftHair/LongLeftHair2/LongLeftHair2_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongRightHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongRightHair/MLongRightHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongRightHair/MLongRightHair/LongRightHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongRightHair/MLongRightHair/LongRightHair/LongRightHair2
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/FLongRightHair/MLongRightHair/LongRightHair/LongRightHair2/LongRightHair2_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/MBangs
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/MBangs/Bangs
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/MBangs/Bangs/Bangs_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/MLeftSideHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/MLeftSideHair/LeftSideHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/MLeftSideHair/LeftSideHair/LeftSideHair_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/MRightSideHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/MRightSideHair/RightSideHair
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Hair/MRightSideHair/RightSideHair/RightSideHair_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Mask
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/AllHead/Head/Mask/Mask_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/LeftArm
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/LeftArm/LeftForeArm
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/LeftArm/LeftForeArm/LeftHand
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/LeftArm/LeftForeArm/LeftHand/LeftHandLocator
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/LeftArm/LeftForeArm/LeftHand/LeftHandLocator/LeftHandLocator_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/RightArm
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/RightArm/RightForeArm
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/RightArm/RightForeArm/RightHand
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/RightArm/RightForeArm/RightHand/RightHandLocator
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/Arm/RightArm/RightForeArm/RightHand/RightHandLocator/RightHandLocator_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowL
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowL/bowL_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowL1
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowL1/bowL2
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowL1/bowL2/bowL2_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowR
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowR/bowR_end
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowR1
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowR1/bowR2
+    m_Weight: 1
+  - m_Path: Root/Root/AllBody/UpBody/UpperBody/bow/bowR1/bowR2/bowR2_end
+    m_Weight: 1
